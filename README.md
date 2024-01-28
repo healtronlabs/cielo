@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/healtronlabs/cielo.svg)](https://github.com/healtronlabs/cielo/releases)
 
-The `cielo` repo is a set of all generic utilities used by healtronlabs crystal repositories
+The `cielo` repo is a set of basic generic utilities used frequently in crystal repositories
 
 ## Installation
 
