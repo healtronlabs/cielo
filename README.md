@@ -1,6 +1,6 @@
 # cielo
 
-TODO: Write a description here
+The `cielo` repo is a set of all utilities used by healtronlabs crystal repositories
 
 ## Installation
 
@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      cielo:
-       github: your-github-user/cielo
+       github: healtronlabs/cielo
    ```
 
 2. Run `shards install`
@@ -19,12 +19,6 @@ TODO: Write a description here
 ```crystal
 require "cielo"
 ```
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
@@ -36,4 +30,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [descholar-ceo](https://github.com/your-github-user) - creator and maintainer
+- [descholar-ceo](https://github.com/descholar-ceo) Founder Of the [Healtron Labs](https://github.com/healtronlabs) - creator and maintainer
