@@ -1,6 +1,6 @@
 # cielo
 
-The `cielo` repo is a set of all utilities used by healtronlabs crystal repositories
+The `cielo` repo is a set of all generic utilities used by healtronlabs crystal repositories
 
 ## Installation
 
