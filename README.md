@@ -32,4 +32,4 @@ require "cielo"
 
 ## Contributors
 
-- [descholar-ceo](https://github.com/descholar-ceo) Founder Of the [Healtron Labs](https://github.com/healtronlabs) - creator and maintainer
+- [descholar-ceo](https://github.com/descholar-ceo) - creator and maintainer
