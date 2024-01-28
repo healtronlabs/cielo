@@ -2,6 +2,8 @@
 
 The `cielo` repo is a set of all generic utilities used by healtronlabs crystal repositories
 
+[![GitHub release](https://img.shields.io/github/release/healtronlabs/cielo.svg)](https://github.com/healtronlabs/cielo/releases)
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
