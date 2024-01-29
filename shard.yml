@@ -1,9 +1,9 @@
 name: cielo
-version: 0.1.1-rc1
+version: 0.1.1-rc2
 
 authors:
   - descholar-ceo <emmanuellamugi@gmail.com>
 
-crystal: '>= 1.11.2'
+crystal: '>= 1.9.2'
 
 license: MIT
