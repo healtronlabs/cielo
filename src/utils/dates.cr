@@ -1,5 +1,5 @@
 module Dates
-  def calculate_created_time_ago(created_at : Time) : String
+  def self.calculate_created_time_ago(created_at : Time) : String
     differnce_created_at_time = Time.utc - created_at
     days = differnce_created_at_time.days
     hours = differnce_created_at_time.total_hours
@@ -19,7 +19,7 @@ module Dates
     joined_time_ago
   end
 
-  def prepare_date_range_different_days(
+  def self.prepare_date_range_different_days(
     starting_time : String,
     ending_time : String? = Time.utc.to_s
   ) : Tuple(Time, Time)
@@ -36,7 +36,7 @@ module Dates
     {start_of_the_day, end_of_the_day}
   end
 
-  def prepare_date_range_same_day(
+  def self.prepare_date_range_same_day(
     date : String? = Time.utc.to_s
   ) : Tuple(Time, Time)
     casted = Time.parse(date, "%Y-%m-%d", Time::Location::UTC)
@@ -48,7 +48,7 @@ module Dates
     {start_of_the_day, end_of_the_day}
   end
 
-  def set_end_date(end_time : String | Nil) : String
+  def self.set_end_date(end_time : String | Nil) : String
     res = if end_time
             end_time
           else
@@ -56,11 +56,11 @@ module Dates
           end
   end
 
-  def format_date_time(date_time : Time) : String
+  def self.format_date_time(date_time : Time) : String
     date_time.to_s.gsub(" ", "T").sub(%r{TUTC$}, "")
   end
 
-  def parse_date_time(formatted_time : String) : Time
+  def self.parse_date_time(formatted_time : String) : Time
     formatted_time = formatted_time.gsub("T", " ").sub(%r{\.\d+(\+[\d:]+|Z)$}, " UTC")
     begin
       time = Time.parse!(formatted_time, "%Y-%m-%d %H:%M:%S %:z")
