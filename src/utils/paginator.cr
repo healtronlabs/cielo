@@ -14,7 +14,7 @@ module Paginator
     end
   end
 
-  def paginate_array(
+  def self.paginate_array(
     items : Array(T),
     records_per_page : Int32? = 10,
     current_page : Int32? = 1
